@@ -380,6 +380,10 @@ public class Ignite extends javax.swing.JFrame {
     }//GEN-LAST:event_tipsButtonActionPerformed
 
     private void nightModeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nightModeActionPerformed
+        homeButton.setVisible(false);
+        backButton.setVisible(false);
+        homeButton.setVisible(true);
+        backButton.setVisible(true);
         if (press == 1){
             Start.setBackground(Color.BLACK);
             ignite.setForeground(Color.white);
